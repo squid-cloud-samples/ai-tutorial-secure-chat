@@ -1,5 +1,5 @@
 {
-  "name": "squid-facts-backend",
+  "name": "backend",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -14,10 +14,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@squidcloud/backend": "latest",
+    "rxjs": "7.5.7",
+    "axios": "^1.6.3",
     "@squidcloud/client": "latest",
-    "reflect-metadata": "^0.1.13",
-    "rxjs": "7.5.7"
+    "@squidcloud/backend": "latest",
+    "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
